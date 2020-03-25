@@ -101,12 +101,14 @@ header{
 .b_content button{
 	font-family: sans-serif;
 	font-size: 25px;
+	font-weight: 502;
 	color: #5A5A5A;
 	width: 210px;
-	height: 50px;
+	height: 48px;
 	border: none;
 	border-radius: 5px;
 	transition: .5s;
+	padding: 0 0 56px 0 ;
 }
 
 .b_content button:focus{
@@ -115,15 +117,110 @@ header{
 .b_content button:hover{
 	color: #0074b9;
 }
+.b_content button img{
+	width: 13%;
+	background-position: center;
+	margin: 9px 0 0 13px;
+}
 /*Banner End*/
 
+/*Container Starts*/
+.container{
+	background-color: #111828;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 10px 5px #121B2C;
+}
+.text1, .text2, .text3 {
+	background-color: #111828;
+    float: left;
+    width: 30%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    /*height: 400px;
+    padding: 114px;*/
+}
+/*.text1 h1{
+	color: white;
+}*/
+.text1 h1,.text2 h1, .text3 h1{
+font-family: arial;
+font-size: 23px;
+font-weight: 20;
+color: white;
 
+}
 
+.text1 h2, .text2 h2, .text3 h2{
+font-family: sans-serif;
+font-size: 23px;
+font-weight: 450;
+color: #029efa;
+}
 
+.text1 p, .text2 p, .text3 p{
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	color: white;
+	text-align: justify; 
+	/*line-height: 30px;
+	margin: 5px 0 20px;*/
 
+}	
+.text1 {
+    margin-right: 5%;
+}
+.text2{
 
+}
+.text3 {
+    margin-left: 5%;
+}
+/*Container Ends*/
 
+/*Footer Starts*/
+.footer {
+	background-color: #111828;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 10px 0 0 #131114;
+}
+#footbar{
+	margin-top: 10px;
+	width: 70%;
+	float: left;
+}
+#footbar ul{
+	list-style: none;
+	float: left;
+	color: white;
+	}
+#footbar ul li{
+	float: left;
+	color: white;
+}
+#footbar ul li a{
+	font-family: sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: white;	
+	padding-right: 30px;
+	display: block;	
+	transition: .5s;
+}
 
+.footerlogo {
+	width: 30%;
+	float: right;
+	overflow: hidden;
+}
+.wrapper ul li p{
+	color: white;
+	float:left;
+	margin-left: 20px;
 
-
-
+}
+/*Footer Ends*/
